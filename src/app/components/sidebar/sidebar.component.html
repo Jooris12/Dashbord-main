@@ -1,10 +1,9 @@
-<section style="box-shadow: 2px 2px 3px 2px;height: 97vh;border-radius: 10px;">
+<section style="box-shadow: 2px 2px 3px 2px;height: 97vh;border-radius: 10px;width: 95%;">
   <p style="margin-left: 230px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 35px;margin-top: 50px;">Weekly sumup</p>
-  <p style="margin-left: 230px;font-family: Arial, Helvetica, sans-serif, sans-serif;font-size: 30px;margin-top: 50px; color: rgba(169, 169, 169, 0.37);">Get summary of your weekly online transactions here.</p>
+  <p style="margin-left: 230px;font-family: Arial, Helvetica, sans-serif, sans-serif;font-size: 30px;margin-top: -40px; color: rgba(169, 169, 169, 0.37);font-size: 20px;">Get summary of your weekly online transactions here.</p>
 
   <nav>
 <div class="card flex justify-content-center">
-    <p-menu [model]="items" styleClass="w-full md:w-15rem">
         <ng-template pTemplate="start">
             <span class="inline-flex align-items-center gap-1 px-2 py-2">
 
@@ -17,7 +16,6 @@
             <a pRipple class="flex align-items-center p-menuitem-link">
                 <span [class]="item.icon"></span>
                 <span class="ml-2">{{ item.label }}</span>
-                <p-badge *ngIf="item.badge" class="ml-auto" [value]="item.badge" />
                 <span *ngIf="item.shortcut" class="ml-auto border-1 surface-border border-round surface-100 text-xs p-1">{{ item.shortcut }}</span>
             </a>
         </ng-template>
@@ -26,7 +24,6 @@
 
             </button>
         </ng-template>
-    </p-menu>
 </div>
 
   </nav>
@@ -34,24 +31,24 @@
 
 
 </section>
-<div style="margin-left: 230px;margin-top:-500px ;width: 400px;background-color: white;height: 250px;box-shadow: 1px 1px 1px 1px;border-radius: 10px;">
+<div style="margin-left: 230px;margin-top:-565px ;width: 450px;background-color: white;height: 250px;box-shadow: 1px 1px 1px 1px;border-radius: 10px;">
   <p style="font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 30px auto auto 10px;">
     Cards
   </p>
   <div style="background-image: url(/assets/674d96cd-0ef1-4a19-810c-c1bea4e12dde-removebg-preview.png); width: 300px;height: 100px;">
-
-  </div>
+ </div>
    </div>
    <div>
 
    </div>
+
 <style>
   hr{
   width: 1px;
-  height: 97vh;
+  height: 98vh;
   background-color: rgba(39, 39, 39, 0.363);
   margin: -359px auto;
   margin-left: 200px;
-  margin-top: -458px;
+  margin-top: -80px;
   }
 </style>

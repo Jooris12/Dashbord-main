@@ -9,6 +9,6 @@ import { MeterGroupModule } from 'primeng/metergroup';
 })
 export class Barre {
     value = [
-        { label: 'Weekly payement limit', value: 15, color: 'bleu' }
+        { label: 'Weekly payement limit', value: 30, color: 'bleu' }
     ];
 }
